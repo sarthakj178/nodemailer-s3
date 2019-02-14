@@ -1,8 +1,8 @@
 {
   "name": "nodemailer-s3",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Use nodemailer to send emails using attachments from AWS S3",
-  "main": "lib/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "mocha --require babel-register",
     "build": "rimraf dist/ && babel lib --out-dir dist/ --ignore ./node_modules,./.babelrc,./package.json,./npm-debug.log --copy-files",
